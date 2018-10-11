@@ -15,6 +15,7 @@ import Product from '../Product';
 import Project from '../Project';
 import Feedback from '../Feedback';
 import BasicData from '../BasicData';
+import CreateTask from '../Task/CreateTask';
 
 
 const { Header } = Layout;
@@ -88,6 +89,7 @@ class Main extends Component {
 
             <SubMenu    onTitleClick={this.TitleClick}   key="Main/Task" title={<span>任务</span>}    >
               <Menu.Item  key="Main/Task">首页</Menu.Item>
+              <Menu.Item  key="Main/CreateTask">创建任务</Menu.Item>
             </SubMenu>
 
             <SubMenu   onTitleClick={this.TitleClick}    key="Main/VersionPlan" title={<span>版本计划</span>}   >
@@ -124,6 +126,7 @@ class Main extends Component {
             <Route path="/Main/Project" component={Project} />
             <Route path="/Main/Feedback" component={Feedback} />
             <Route path="/Main/BasicData" component={BasicData} />
+            <Route path="/Main/CreateTask" component={CreateTask} />
           </Switch> 
         </Router>
     </Layout>

@@ -1,0 +1,17 @@
+.TaskCSS .ant-menu-item:hover, 
+.TaskCSS .ant-menu-item-active, 
+.TaskCSS .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, 
+.TaskCSS .ant-menu-submenu-active, 
+.TaskCSS .ant-menu-submenu-title:hover{
+    color:blue;
+  }
+
+.TaskCSS .ant-menu-light  .ant-menu-item:hover, 
+.TaskCSS .ant-menu-light  .ant-menu-item-active, 
+.TaskCSS .ant-menu-light  .ant-menu-submenu-active, 
+.TaskCSS .ant-menu-light  .ant-menu-submenu-open,
+.TaskCSS .ant-menu-light  .ant-menu-submenu-selected, 
+.TaskCSS .ant-menu-light  .ant-menu-submenu-title:hover {
+    background-color: #2593fc !important;
+    color:blue;
+  }
